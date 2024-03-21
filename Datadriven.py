@@ -17,3 +17,4 @@ with open("users.CSV", "w", encoding="UTF-8", newline="") as csv_file:
     csv_writer = csv.writer(csv_file)
     csv_writer.writerow(['Name', 'Email'])
     csv_writer.writerows(users)
+

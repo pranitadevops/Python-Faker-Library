@@ -1,6 +1,7 @@
 from faker import Faker
 
 fake = Faker()
+
 # print(f"fake name : {fake.name()}")
 # print(f"fake mail {fake.email()}")
 # print(fake.country())
@@ -8,10 +9,10 @@ fake = Faker()
 # print(fake.text())
 # print(fake.latitude(), fake.longitude())
 # print(fake.url())
-#
-# # # Generate date in Spanish Language
-#
-# print("**********************Spanish************")
+
+
+
+# print("***Spanish***")
 # fake = Faker("es_ES")
 # print(fake.name())
 # print(fake.email())
@@ -19,7 +20,8 @@ fake = Faker()
 # print(fake.name())
 # print(fake.latitude(), fake.longitude())
 
-print(" ""Hindi Language""")
+
+print("""Hindi Language""")
 fake = Faker("hi_IN")
 for i in range(0, 10):
 
